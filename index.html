@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Bonus</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        
+        body{
+            background-color: darkcyan;
+        }
+        .img1{
+           width:400px;
+           height:400px ;
+        }
+        
+        .botao{
+            background-color: darkgrey;
+            color: rgb(35, 37, 37);
+            width: 55px;
+            height: 20px;
+            border-radius: 3px;
+           
+            
+        }
+
+        .Titulo{
+            background-color: lightseagreen ;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="Titulo">Ganhe prêmios</h1>
+        <br><br>
+        <img src="oferta-fake.webp" class="img1">
+        <br><br><br>
+        <input type="button" onclick="apertar()" class="botao" value="Quero!">
+        <br><br><br><br><br><br><br><br>
+        <img src="golpe 1.webp" class="img1">
+        <br><br><br>
+        <input type="button" onclick="apertar()" class="botao" value="Quero!">
+        <br><br><br><br><br><br><br><br>
+        <img src="geladeira.jpg" class="img1">
+        <br><br><br>
+        <input type="button" onclick="apertar()" class="botao" value="Quero!">
+        <br><br><br><br><br><br><br><br>
+        <img src="whatsapp-golpe.webp" class="img1">
+        <br><br><br>
+        <input type="button" onclick="apertar()" class="botao" value="Quero!">
+        <br><br><br><br><br><br><br><br>
+        <img src="images.png" class="img1">
+        <br><br><br>
+        <input type="button" onclick="apertar()" class="botao" value="Quero!">
+
+    </center>
+
+    <script>
+        function apertar() {
+          
+           Swal.fire({
+            title: "Parabéns!",
+            text: "Você ganhou um vírus",
+            icon: "error"
+          });
+          }
+    </script>
+</body>
+</html>
